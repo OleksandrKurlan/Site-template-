@@ -253,3 +253,73 @@ header{
     margin-left: -30px;
 }
 
+
+
+/* 
+ * block "watch behind the scene"
+ *
+ * Left block - text
+ */
+.block-watch{
+    display: flex;
+    height: 50vh;
+    max-height: 430px;
+    background-color: #171f23;
+    width: 100%;
+}
+
+.left_block-watch{
+    margin: 0 1% 0;
+    height: 100%;
+    width: 48%;
+    
+}
+
+.watch-behind-the-scene{
+    width: 80%;
+    margin-top: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.watch-h3{
+    font-size: 30px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.watch-text{
+    color: #535455;
+}
+
+.play-now{
+    margin: 40px;
+    background-color: #e84c3d;
+    border: 3px;
+    border-color: #e84c3d;
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ebebeb;
+    font-weight: 650;
+}
+
+/* Right block - video */
+.right_block-watch{
+    
+}
+
+.play-icon{
+    font-size: 150px;
+    font-family: "Pe";
+    color: rgb(245, 245, 245);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 979.688px;
+    top: 1544px;
+    z-index: 67;
+}
